@@ -1,0 +1,10 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+public class Basket {
+    
+	public static void main(String[] args) {
+		String [] shop= {""
+        Arraylist<String> myBasket=new Arraylist<String>();
+	}
+
+}

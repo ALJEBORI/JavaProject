@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Basket {
+    
+	public static void main(String[] args) {
+		String [] shop= {"Tomate","Salade","Oignon" ," Orange","Banana"};
+        ArrayList<String> myBasket = new ArrayList<String>();
+        String ans="";
+        while(ans.equalsIgnoreCase("q"))  {
+           System.out.println("Number of emlements in your Basket : " + myBasket.size());
+           System.out.println("Que voulez vous faire?");
+	}
+
+}

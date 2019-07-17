@@ -1,0 +1,20 @@
+package com.MyAlbum;
+
+public class Album {
+	String titre;
+	int nbPist;
+
+	public Album(String titre, int nbPist) {
+		this.nbPist=nbPist>24?10:nbPist;
+		this.titre = titre;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Album myAlbum1 = new Album("FirstAlbum", 10);
+		Album myAlbum2 = new Album("FirstAlbum", 50);
+
+	}
+
+}

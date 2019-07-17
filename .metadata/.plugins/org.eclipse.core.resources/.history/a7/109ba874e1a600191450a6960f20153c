@@ -1,0 +1,24 @@
+package com.hardis.application;
+import java.util.Scanner;
+public class trianerOperator {
+
+	public static void main(String[] args) {
+		int age = 20;
+		boolean vegetrian = true;
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		if (vegetrian) {
+			System.out.println("Salade");
+		} else {
+			System.out.println("Vache");
+		}
+		String state = (age < 18) ? "Minor" : "Major";
+		System.out.println("state = " + state);
+
+	}public trianerOperator() {
+		// TODO Auto-generated constructor stub
+	}
+System.out.println("Vous avez tappé: "+a);
+
+
+}

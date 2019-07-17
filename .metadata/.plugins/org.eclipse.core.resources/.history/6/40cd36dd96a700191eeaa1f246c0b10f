@@ -1,0 +1,16 @@
+
+public class SuperCalculator {
+
+	public static void main(String[] args) {
+		String ans=" ";
+		while(!ans.equalsIgnoreCase("q")) {
+			System.out.println("Que vous tu faire?");
+			System.out.println("- table: Table de Multiplication");
+			System.out.println("- calc: Calculatrice");
+			System.out.println("- q: Quitter");
+		}
+		
+
+	}
+
+}

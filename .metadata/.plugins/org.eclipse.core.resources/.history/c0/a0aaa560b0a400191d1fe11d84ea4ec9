@@ -1,0 +1,14 @@
+package com.hardis.application;
+
+public class Entry {
+
+	public static void main(String[] args) {
+	     String nom="ALJEBORI";
+	     String prenom="Mohammed";
+	     Integer ageObject=48;  // object integer not Int primitive
+	     int agePrimitive=20;
+	     System.out.println("Bonjour"+prenom+" "+" "+nom+"vous avez  " + agePrimitive);
+
+	}
+
+}

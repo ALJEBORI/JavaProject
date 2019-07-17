@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class JoueX {
+
+	public static void main(String[] args) {
+		int ro=0,col=0;
+		String myIp;
+		char jouArray[][];
+		Scanner Scanner = new Scanner(System.in);
+		System.out.println("Bienvenue sur Puissance 4!");
+		System.out.println("Choisissez un nombre de lignes et de colonnes pour votre partie s'il vous plait (nombre de lignes-nombre de colonnes)");
+		myIp=Scanner.next();
+		ro=(int)myIp.charAt(0);
+		System.out.println("Tour de joueur 1");
+		System.out.println("Choisissez dans quelle colonne placer votre pion (entre 1 et" + col +")");
+	}
+
+}

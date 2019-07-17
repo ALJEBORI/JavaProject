@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class JoueX {
+
+	public static void main(String[] args) {
+		char jouArray[][];
+		System.out.println("Bienvenue sur Puissance 4!");
+		System.out.println("Choisissez un nombre de lignes et de colonnes pour votre partie s'il vous plait (nombre de lignes-nombre de colonnes)");
+	}
+
+}
