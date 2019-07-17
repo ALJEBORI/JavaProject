@@ -14,14 +14,14 @@ public class City {
 		this.capital = capital;
 	}
 
-	public String makeCopmpare(City otherCity) {
+	public void makeCopmpare(City otherCity) {
 		if (this.population > otherCity.population) {
-			return "My City is Bigger than Other City";
+			System.out.println("My City is Bigger than Other City");
 		} else {
 			if (this.population < otherCity.population)
-				return "My City is Smaller than Other City";
+				System.out.println("My City is Smaller than Other City");
 			else
-				return "My City is same population of Other City";
+				System.out.println("My City is same population of Other City");
 		}
 
 	}
