@@ -1,5 +1,5 @@
-package elements;
 
+package elements;
 public  class Chicken extends Animal {
 
 	public Chicken(String name, int x, int y, boolean inAir) {
