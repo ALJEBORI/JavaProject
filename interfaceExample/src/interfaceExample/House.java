@@ -7,9 +7,9 @@ public class House extends SpecialElement {
 	private List<Human> owner=new ArrayList<Human>();
 	private Ematerial matOwner;
 	private int price;
-	public House(List<Human> owner, Ematerial matOwner, int price) {
+	public House(Human owner, Ematerial matOwner, int price) {
 		super();
-		this.owner = owner;
+		this.owner.add(owner);
 		this.matOwner = matOwner;
 		this.price = price;
 	}

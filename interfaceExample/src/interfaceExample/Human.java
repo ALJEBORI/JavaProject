@@ -8,11 +8,11 @@ public class Human extends Being implements Adopter,Buyer {
 	private int money;
 	private House myhouse;
 
-	public Human(int maxSeed, List<Animal> mypets, int money, House myhouse) {
+	public Human(int maxSeed, Animal mypets, int money, House myhouse) {
 		super(maxSeed);
-		this.mypets = mypets;
+		this.mypets.add(mypets);
 		this.money = money;
-		this.myhouse = myhouse;
+		this.myhouse = getMyhouse();
 	}
 	
 	public Human(int maxSeed, int money) {

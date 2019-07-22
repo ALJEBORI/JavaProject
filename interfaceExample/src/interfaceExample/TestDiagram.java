@@ -9,7 +9,7 @@ public class TestDiagram {
 		
 		Human h1 = new Human(4);
 		House ho1=new House(9000);
-		Human h2 = new Human(4, Boxer, 2000, ho1);
+		Human h2 = new Human(20, Boxer, 900000, );
 
 	}
 
