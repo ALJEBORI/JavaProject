@@ -1,11 +1,8 @@
 package hashmap;
 
-import java.nio.channels.FileChannel.MapMode;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 public class CommercialManag {
 
@@ -32,10 +29,10 @@ public class CommercialManag {
 		myDic.put(commOne, clientListOne);
 		myDic.put(commTwo, clientListTwo);
 		for (Map.Entry<Commercial, ArrayList<Client>> c : myDic.entrySet()) {
-			System.out.println("The Key is  \n" + c.getKey() + "\n The value is \n" + c.getValue()+"\n");
+			System.out.println("The Key is  \n" + c.getKey() + "\n The value is \n" + c.getValue() + "\n");
 			for (Client v : c.getValue()) {
-				System.out.println("Client Name:   "+ v.getNom() + "  Client nbSalarie:  " + v.getNbSalarie() + "   Client Pole:  "
-						+ v.getPole()+"\n");
+				System.out.println("Client Name:   " + v.getNom() + "  Client nbSalarie:  " + v.getNbSalarie()
+						+ "   Client Pole:  " + v.getPole() + "\n");
 				System.out.println("Client Data  " + v.toString());
 			}
 		}
