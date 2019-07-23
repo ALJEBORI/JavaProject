@@ -5,6 +5,13 @@ public abstract class SpecialElement {
 	protected int x;
 	protected int y;
 	protected boolean inAir;
+	
+	public SpecialElement(String name2, int i, int j, boolean b) {
+		this.name=name2;
+		this.x=i;
+		this.y=j;
+		this.inAir=b;
+	}
 	public String getName() {
 		return name;
 	}

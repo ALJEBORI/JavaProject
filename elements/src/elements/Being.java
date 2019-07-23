@@ -4,8 +4,9 @@ public abstract class Being extends SpecialElement {
 
 	protected int maxSpeed=1;
 	
-	public Being(String name, int x, int y, boolean inAir) {
+	public Being(int mSpeed,String name, int x, int y, boolean inAir) {
 		super(name, x, y, inAir);
+		this.maxSpeed=mSpeed;
 		// TODO Auto-generated constructor stub
 	}
 

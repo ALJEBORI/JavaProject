@@ -2,13 +2,13 @@ package interfaceExample;
 
 public class Chicken extends Animal implements Flying {
 
-	public Chicken(int maxSeed, Human pOwner) {
+/*	public Chicken(int maxSeed, Human pOwner) {
 		super(maxSeed, pOwner);
 		// TODO Auto-generated constructor stub
-	}
+	}*/
 
-	public Chicken() {
-		super(1);
+	public Chicken(int mSpeed,String name,int i,int j,boolean b) {
+		super(mSpeed, name, i, j, b);
 		// TODO Auto-generated constructor stub
 	}
 

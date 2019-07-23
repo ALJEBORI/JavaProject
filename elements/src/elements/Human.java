@@ -9,8 +9,13 @@ public  class Human extends Being {
 	private List<Animal> myAnimal = new ArrayList<Animal>();
 	private House humanHouse;
 
-	public Human(String name, int x, int y, boolean inAir) {
-		super(name, x, y, inAir);
+	public Human(int mSpeed,String name, int x, int y, boolean inAir) {
+		super(mSpeed,name, x, y, inAir);
+		// TODO Auto-generated constructor stub
+	}
+	public Human(int mSpeed,String name, int x, int y, boolean inAir, Animal myPts) {
+		super(mSpeed,name, x, y, inAir);
+		myAnimal.add(myPts);
 		// TODO Auto-generated constructor stub
 	}
 

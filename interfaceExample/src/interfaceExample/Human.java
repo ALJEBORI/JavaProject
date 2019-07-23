@@ -1,29 +1,22 @@
 package interfaceExample;
 
+import java.awt.List;
 import java.util.ArrayList;
-import java.util.List;
-
 public class Human extends Being implements Adopter,Buyer {
 	private List<Animal> mypets = new ArrayList<Animal>();
 	private int money;
 	private House myhouse;
 
-	public Human(int maxSeed, Animal mypets, int money, House myhouse) {
-		super(maxSeed);
+	public Human(int mSpeed,String name,int i,int j,Boolean b,Animal mypets, int money, House myhouse) {
+		super(mSpeed,name, i, j, b);
 		this.mypets.add(mypets);
 		this.money = money;
-		this.myhouse = getMyhouse();
+		this.myhouse = myhouse;
 	}
 	
-	public Human(int maxSeed, int money) {
-		super(maxSeed);
+	public Human(int mSpeed,String name,int i,int j,Boolean b, int money) {
+		super(mSpeed,name, i, j, b);
 		this.money = money;
-	}
-
-
-
-	public Human(int maxSeed) {
-		super(maxSeed);
 	}
 
 
@@ -73,6 +66,11 @@ public class Human extends Being implements Adopter,Buyer {
 
 	public void setMyhouse(House myhouse) {
 		this.myhouse = myhouse;
+	}
+
+	@Override
+	public String toString() {
+		return "Human [mypets=" + mypets + ", money=" + money + ", myhouse=" + myhouse + "]";
 	}
 
 }

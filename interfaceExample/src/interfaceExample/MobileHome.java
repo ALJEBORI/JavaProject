@@ -1,11 +1,10 @@
 package interfaceExample;
 
-import java.util.List;
 
 public class MobileHome extends House implements Movable {
 	
 
-	public MobileHome(List<Human> owner, Ematerial matOwner, int price) {
+	public MobileHome(Human owner, Ematerial matOwner, int price) {
 		super(owner, matOwner, price);
 		// TODO Auto-generated constructor stub
 	}

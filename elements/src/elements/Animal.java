@@ -6,10 +6,14 @@ public abstract class Animal extends Being {
 
 	public abstract String communicate();
 
-	public Animal(String name, int x, int y, boolean inAir) {
-		super(name, x, y, inAir);
-		// TODO Auto-generated constructor stub
+	public Animal(int mSpeed,String name, int x, int y, boolean inAir) {
+		super(mSpeed,name, x, y, inAir);
 	}
+	public Animal(int mSpeed,String name, int x, int y, boolean inAir, Human owner) {
+		super(mSpeed,name, x, y, inAir);
+		this.owner=owner;
+	}
+	
 
 	public Human getOwner() {
 		return owner;

@@ -2,9 +2,9 @@ package elements;
 
 public  class Dog extends Animal {
 
-	public Dog(String name, int x, int y, boolean inAir) {
-		super(name, x, y, inAir);
-		// TODO Auto-generated constructor stub
+	public Dog(int mSpeed,String name, int x, int y, boolean inAir) {
+		super(mSpeed,name, x, y, inAir);
+		
 	}
 
 	@Override

@@ -2,8 +2,8 @@ package elements;
 
 public  class Eagle extends Animal {
 
-	public Eagle(String name, int x, int y, boolean inAir) {
-		super(name, x, y, inAir);
+	public Eagle(int mSpeed,String name, int x, int y, boolean inAir) {
+		super(mSpeed,name, x, y, inAir);
 		// TODO Auto-generated constructor stub
 	}
 
