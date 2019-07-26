@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.MyAlbum.Piste"/>
+    <fullyQualifiedTypeName name="com.MyAlbum.Album"/>
+    <fullyQualifiedTypeName name="interfaceExample.House"/>
+    <fullyQualifiedTypeName name="interfaceExample.Ematerial"/>
+    <fullyQualifiedTypeName name="interfaceExample.Human"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="elements.Human"/>
+    <fullyQualifiedTypeName name="interfaceExample.Animal"/>
+    <fullyQualifiedTypeName name="Club"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="moh.dao.GenericDao"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="moh.model.Club"/>
+    <fullyQualifiedTypeName name="moh.model.Context"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="moh.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="moh.model.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="moh.dao.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="moh.model.SacemReg"/>
+    <fullyQualifiedTypeName name="moh.model.Artist"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="moh.model.Album"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
