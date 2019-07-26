@@ -13,7 +13,7 @@ import com.disco.model.Artist;
 import com.disco.model.SacemRegistration;
 
 public class SacemDaoImpl implements SacemDao {
-	private final String tableName = "sacem";
+	private final String tableName = "sacemregistration";
 	private final String idColumnName = "reference";
 	
 	@Override

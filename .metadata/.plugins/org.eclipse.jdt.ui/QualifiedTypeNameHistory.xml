@@ -33,4 +33,8 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="moh.model.Album"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="com.disco.Entry"/>
+    <fullyQualifiedTypeName name="com.disco.dao.utils.Context"/>
 </qualifiedTypeNameHistroy>

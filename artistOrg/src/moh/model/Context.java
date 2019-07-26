@@ -10,9 +10,11 @@ public class Context {
     
     private Context() {
         try {
-    		Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection(
-					"jdbc:mysql://localhost/artistorg" + "?user=MJebori&password=mohsql69&serverTimezone=CET&useSSL=false");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/artistorg" + "?user=MJebori&password=mohsql69&serverTimezone=CET&useSSL=false");
+    		//Class.forName("com.mysql.cj.jdbc.Driver");
+			//conn = DriverManager.getConnection(
+			//		"jdbc:mysql://localhost/artistorg" + "?user=MJebori&password=mohsql69&serverTimezone=CET&useSSL=false");
 	} catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
