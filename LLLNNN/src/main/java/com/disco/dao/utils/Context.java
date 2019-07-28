@@ -12,12 +12,21 @@ import com.disco.Entry;
 public class Context {
 	private static Context instance =  null;
 	private Connection conn = null;
-	Properties prop=new Properties();
 	InputStream input =this.getClass().getClassLoader().getResourceAsStream("db.properties");	
+	Properties prop=new Properties();
+	// New
+	String driver;
 	private Context() {
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost/artistorg" + "?user=MJebori&password=mohsql69&serverTimezone=CET&useSSL=false");
+			try {
+				prop.load(input);
+				driver=prop.getProperty("db.password");
+				Class.forName(driver);
+				conn = DriverManager.getConnection(prop.getProperty("db.url")+prop.getProperty("db.databasename") + "?user=" +prop.getProperty("db.login")+"&password="+prop.getProperty("db.password")+"&serverTimezone=CET&useSSL=false");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

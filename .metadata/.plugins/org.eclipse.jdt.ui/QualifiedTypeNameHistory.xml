@@ -33,8 +33,12 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="moh.model.Album"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="com.disco.Entry"/>
     <fullyQualifiedTypeName name="com.disco.dao.utils.Context"/>
+    <fullyQualifiedTypeName name="com.disco.dao.SacemDao"/>
+    <fullyQualifiedTypeName name="com.disco.dao.SacemDaoImpl"/>
+    <fullyQualifiedTypeName name="com.disco.model.SacemRegistration"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
 </qualifiedTypeNameHistroy>
